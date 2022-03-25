@@ -1,9 +1,30 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 100px 50px;
    
+}
+.bird img{
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    
+    /* border: 5px solid rgb(221, 205, 205); */
+}
+.bird{
+   text-align: center;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .products-container{
+        grid-template-columns:repeat(1, 1fr);
+    }
+    
 }
