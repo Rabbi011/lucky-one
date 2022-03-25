@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Pigeon",
+      "id": 1,
+      "price":299,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Pigeon-min.png?resize=150%2C150&ssl=1"
+    },
+    {
+      "name": "Peacock",
+      "id": 2,
+      "price":399,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Peacock-min.png?resize=150%2C150&ssl=1"
+    },
+    {
+      "name": "Parrot",
+      "id": 3,
+      "price":499,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Parrot-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Sparrow",
+      "id": 4,
+      "price":199,
+      "img": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Sparrow-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Woodpecker",
+      "id": 5,
+      "price":299,
+      "img": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Woodpecker-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Owl",
+      "id": 6,
+      "price":199,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Owl-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Kingfisher",
+      "id": 7,
+      "price":99,
+      "img": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Kingfisher-min.png?resize=150%2C150&ssl=1"
+    },
+   
+    {
+      "name": "Crow",
+      "id": 8,
+      "price":209,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Crow.png?resize=150%2C150&ssl=1"
+    },
+   
+    {
+      "name": "Kite",
+      "id": 9,
+      "price":299,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/kite.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Eagle",
+      "id": 10,
+      "price":399,
+      "img": "https://i1.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/eagle-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Dove",
+      "id": 11,
+      "price":599,
+      "img": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Dove-min.png?resize=150%2C150&ssl=1"
+    },
+    
+    {
+      "name": "Penguin",
+      "id": 12,
+      "price":699,
+      "img": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Penguin-min.png?resize=150%2C150&ssl=1"
+    }
+    
+  ]
