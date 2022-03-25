@@ -16,7 +16,13 @@
     padding-bottom: 7px;
     border-radius: 5px;
     background: rgb(247, 148, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
+}
+.btn-card .btn-text{
+    margin-right: 5px;
 }
 .btn-card:hover{
     background-color: brown;

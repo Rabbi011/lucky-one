@@ -22,6 +22,9 @@ const Birds = () => {
         setItem(newItem)
     }
     // console.log(items)
+    // const clear = () =>{
+    //     items = []
+    // }
     
     return (
         <div className='shop-container'>
@@ -36,6 +39,7 @@ const Birds = () => {
                     ></Bird> ) 
             }
             </div>
+            {/* display part  */}
             <div className='card-container'>
                  <div>
                  <h1>Product summery</h1>
@@ -46,7 +50,7 @@ const Birds = () => {
                      </div>
                      <button>CHOOSE 1 FOR ME</button>
                      <br></br>
-                        <button>CHOOSE AGAIN</button>
+                        <button >CHOOSE AGAIN</button>
                  </div>
                   
             </div>
