@@ -13,14 +13,14 @@ const Birds = () => {
     },[])
     
     return (
-        <div>
-            <div>
-            <h1>well come to Birds Buy site</h1>
+        <div className='shop-container'>
+            
+            <div className='products-container'>
             {
                 birds.map(bird => <Bird bird ={bird} key = {bird.id} ></Bird> ) 
             }
             </div>
-            <div>
+            <div className='card-container'>
                   <h1>Poduct summery</h1>
             </div>
             
