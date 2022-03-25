@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Bonus.css'
 const Bonus = () => {
     return (
-        <div>
+        <div className='container'>
             <div>
             <h2>How React Work?</h2>
             <p>If there are numerous state changes, React does not commit them one after the other. React, on the other hand, walks through its virtual DOM, makes a list of the modifications that need to be made to the actual DOM, and then performs everything in one go. React, to put it another way, performs batch updates.</p>
