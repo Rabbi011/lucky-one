@@ -7,7 +7,7 @@ import Bonus from './component/Bonus/Bonus';
 function App() {
   return (
     <div className="App">
-      {/* func */}
+      
       <Header></Header>
       <Birds></Birds>
       <Bonus></Bonus>

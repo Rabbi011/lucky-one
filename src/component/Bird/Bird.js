@@ -5,7 +5,6 @@ import './Bird.css'
 const Bird = (props) => {
     const {img,name,price} = props.bird;
 
-    // console.log(props.bird)
     return (
         <div>
             

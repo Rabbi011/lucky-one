@@ -1,7 +1,7 @@
 import { faHandHoldingHand } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Bird from '../Bird/Bird';
-// import Order from '../Order/Order';
+
 import './Birds.css'
 
 const Birds = () => {
@@ -13,11 +13,6 @@ const Birds = () => {
        alert('just four item')
    }
     
-    
-    // console.log(some)
- 
-    
-    // console.log(items);
     useEffect(() =>{
         fetch('data.json')
         .then(res =>res.json())
