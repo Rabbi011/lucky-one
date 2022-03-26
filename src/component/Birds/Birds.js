@@ -1,3 +1,4 @@
+import { faHandHoldingHand } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Bird from '../Bird/Bird';
 // import Order from '../Order/Order';
@@ -8,8 +9,13 @@ const Birds = () => {
    
     const [birds,setBirds] = useState([]);
     const [items,setItem] = useState([]);
+    const [card,setCard] = useState('');
+    console.log(card);
     
-
+    // console.log(some)
+ 
+    
+    // console.log(items);
     useEffect(() =>{
         fetch('data.json')
         .then(res =>res.json())
@@ -18,14 +24,23 @@ const Birds = () => {
 
     const handleAddToClick = (bird) =>{
         //  console.log(bird)
+        if(items.indexOf(bird) !== -1) return;
         const newItem = [...items, bird]
-        setItem(newItem)
+        setItem(newItem) 
     }
-    // console.log(items)
-    // const clear = () =>{
-    //     items = []
-    // }
+   
+    // console.log(items);
+    const removeItem = () =>{
+       setItem([])
+    }
+     const randomNumber =() =>{
+         const random =Math.floor(Math.random() * items.length);
+         const singleRandomNumber = random;
+         setCard (singleRandomNumber)
+         
+     }
     
+   
     return (
         <div className='shop-container'>
             
@@ -48,10 +63,11 @@ const Birds = () => {
                       items.map(item => <h2 key = {item.id} > <img src={item.img} alt="" /> {item.name}</h2>)
                   }
                      </div>
-                     <button>CHOOSE 1 FOR ME</button>
+                     <button onClick={randomNumber}>CHOOSE 1 FOR ME</button>
                      <br></br>
-                        <button >CHOOSE AGAIN</button>
+                        <button onClick={removeItem} >CHOOSE AGAIN</button>
                  </div>
+
                   
             </div>
             
