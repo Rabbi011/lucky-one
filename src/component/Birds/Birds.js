@@ -9,7 +9,9 @@ const Birds = () => {
    
     const [birds,setBirds] = useState([]);
     const [items,setItem] = useState([]);
-    const [card,setCard] = useState('');
+   if(items.length === 5){
+       alert('just four item')
+   }
     
     
     // console.log(some)
@@ -23,13 +25,13 @@ const Birds = () => {
     },[])
 
     const handleAddToClick = (bird) =>{
-        //  console.log(bird)
+       
         if(items.indexOf(bird) !== -1) return;
         const newItem = [...items, bird]
         setItem(newItem) 
     }
    
-    // console.log(items);
+    
     const removeItem = () =>{
        setItem([])
     }
@@ -54,9 +56,9 @@ const Birds = () => {
                     ></Bird> ) 
             }
             </div>
-            {/* display part  */}
+           
             <div className='card-container'>
-                 <div>
+                 <div className='card'>
                  <h1>Product summery</h1>
                      <div className='bird'>
                      {
