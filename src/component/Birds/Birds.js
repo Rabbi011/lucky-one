@@ -10,7 +10,7 @@ const Birds = () => {
     const [birds,setBirds] = useState([]);
     const [items,setItem] = useState([]);
     const [card,setCard] = useState('');
-    console.log(card);
+    
     
     // console.log(some)
  
@@ -34,9 +34,9 @@ const Birds = () => {
        setItem([])
     }
      const randomNumber =() =>{
-         const random =Math.floor(Math.random() * items.length);
-         const singleRandomNumber = random;
-         setCard (singleRandomNumber)
+         const random =[Math.floor(Math.random() * (items.length -1))];
+        let elem = items[random ]
+        alert(elem.name)
          
      }
     
@@ -59,7 +59,7 @@ const Birds = () => {
                  <div>
                  <h1>Product summery</h1>
                      <div className='bird'>
-                  {
+                     {
                       items.map(item => <h2 key = {item.id} > <img src={item.img} alt="" /> {item.name}</h2>)
                   }
                      </div>
