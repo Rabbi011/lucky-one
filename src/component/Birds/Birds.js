@@ -10,7 +10,7 @@ const Birds = () => {
     const [birds,setBirds] = useState([]);
     const [items,setItem] = useState([]);
    if(items.length === 5){
-       alert('just four item')
+       alert('OPPS, just four item Select')
    }
     
     useEffect(() =>{
@@ -33,7 +33,7 @@ const Birds = () => {
      const randomNumber =() =>{
          const random =[Math.floor(Math.random() * (items.length -1))];
         let elem = items[random ]
-        alert(elem.name)
+        alert('Thanks for Choose Buy now :'+ elem.name)
          
      }
     
